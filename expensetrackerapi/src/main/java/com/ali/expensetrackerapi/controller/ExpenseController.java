@@ -8,6 +8,6 @@ public class ExpenseController {
 	
 	@GetMapping("/expenses")
 	public String getAllExpenses() {
-		return "List of Expenses";
+		return "List of Expenses Updated";
 	}
 }
